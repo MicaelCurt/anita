@@ -1,0 +1,42 @@
+body {
+background-color: greenyellow;
+}
+
+h1 {
+font-family: fantasy;
+font-size: xx-large;
+text-align: center;
+}
+h2 {
+    text-align: center;
+    
+}
+img {
+    width: 16rem;
+    height: 16rem;
+    margin-left: 40%;
+}
+h3 {
+    text-align: center;
+    font-size: medium;
+}
+h4{
+text-decoration: dotted;
+text-align: end;
+touch-action: double-tap-zoom;
+font-size: larger;
+}
+@media (max-width: 768px) {
+    body {
+    font-size: 14px;
+    margin: 10px;
+    }}
+    .contenedor {
+        width: 100%; /* Hace que el contenedor ocupe todo el ancho en móviles */
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column; /* Coloca los elementos en columna en móviles */
+        align-items: center;
+    }
+
